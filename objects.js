@@ -8,6 +8,6 @@ function updateObjectWithObject(targetObject, updatesObject) {
   return Object.assign({}, targetObject, updatesObject)
 }
 
-console.log(updateObjectWithKeyAndValue(Prism, "Shape", "Cube"));
+console.log(updateObjectWithObject(Prism, "Shape", "Cube"));
 
 console.log(Prism)
