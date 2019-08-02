@@ -6,5 +6,5 @@ function updatePlaylist(object, artistname, songtitle) {
 }
 
 function removeFromPlaylist(object, artistname) {
-  playlist[artistname] =
+  delete playlist[artistname];
 }
